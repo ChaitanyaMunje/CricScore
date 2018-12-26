@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pointstable">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IPL POINTS TABLE"
+                android:textSize="25dp"
+                android:id="@+id/standings"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="6"
+                android:background="@android:color/holo_blue_light"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/standings"
+                android:orientation="horizontal">
+
+         <TextView
+             android:layout_width="0dp"
+             android:layout_weight="2"
+             android:layout_height="wrap_content"
+             android:textStyle="bold"
+             android:textSize="30dp"
+             android:id="@+id/team"
+             android:textColor="@android:color/black"
+             android:text="Team"
+             />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="@android:color/black"
+                    android:text="P"
+                    android:id="@+id/team1p"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:id="@+id/team1w"
+                    android:textColor="@android:color/black"
+                    android:text="W"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:id="@+id/team1l"
+                    android:textColor="@android:color/black"
+                    android:text="L"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:id="@+id/team1pts"
+                    android:textColor="@android:color/black"
+                    android:text="PTS"
+                    />
+            </LinearLayout>
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:background="@android:color/holo_blue_light"
+               android:layout_marginTop="10dp"
+               android:textStyle="bold"
+               android:textSize="30dp"
+               android:id="@+id/team1"
+               android:text="txt1"
+               android:textColor="@android:color/black"
+               android:layout_height="wrap_content" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:background="@android:color/holo_blue_light"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:id="@+id/team2"
+                android:text="txt2"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:background="@android:color/holo_blue_light"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:id="@+id/team3"
+                android:text="txt3"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content" />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:background="@android:color/holo_blue_light"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:id="@+id/team4"
+                android:text="txt4"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:background="@android:color/holo_blue_light"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:id="@+id/team5"
+                android:text="txt5"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:background="@android:color/holo_blue_light"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:id="@+id/team6"
+                android:text="txt6"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:background="@android:color/holo_blue_light"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:id="@+id/team7"
+                android:text="txt7"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:background="@android:color/holo_blue_light"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:id="@+id/team8"
+                android:text="txt8"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content" />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
+
+
+</FrameLayout>
